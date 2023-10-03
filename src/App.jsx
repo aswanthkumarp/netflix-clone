@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import {originals,actions,comedy,horror,romance,documentries} from './urls'
 import './App.css'
 import NavBar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
@@ -15,7 +13,12 @@ function App() {
  <div>
   <NavBar/>
   <Banner/>
-  <RowPost/>
+  <RowPost url={originals} title='Netflix Originals'/>
+  <RowPost url={actions} title='Action' isSmall/>
+  <RowPost url={comedy} title='Comedy' isSmall/>
+  <RowPost url={horror} title='Horror' isSmall/>
+  <RowPost url={romance} title='Romance' isSmall/>
+  <RowPost url={documentries} title='Documentries' isSmall/>
  </div>
   )
 }
