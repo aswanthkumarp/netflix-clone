@@ -1,8 +1,19 @@
-# React + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Netflix Clone web application built with React and Vite that displays a homepage similar to Netflix. It fetches movie data from The Movie Database (TMDb) API using Axios.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays a Netflix-like homepage with movie posters.
+- Fetches popular movies and TV shows from TMDb.
+- Allows users to click on movie posters to view details and trailers.
+- Responsive design for various screen sizes.
+
+## Technologies Used
+
+- React: A JavaScript library for building user interfaces.
+- Vite: A fast development build tool.
+- Axios: A promise-based HTTP client for making API requests.
+- react-youtube: A React component for embedding YouTube videos.
+
+
